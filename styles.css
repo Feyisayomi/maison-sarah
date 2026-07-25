@@ -1,0 +1,46 @@
+body {
+  background-color: #acaaa7;
+  color: #676565;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header,
+footer {
+  background-color: #514e4e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #ba6f5c;
+}
+
+nav {
+  background-color: #8b8787;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(227, 201, 201);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.brand {
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+.tagline {
+  font-style: italic;
+  color: #6b6868;
+}
+
+.price {
+  color: #b17878;
+  font-weight: bold;
+}
