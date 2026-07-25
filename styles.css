@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -10,13 +13,16 @@ body {
   line-height: 1.6;
   margin: 0;
 }
+main {
+  padding: 4rem 0;
+}
 
 header,
 footer {
   background-color: #514e4e;
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 h1 {
@@ -35,14 +41,32 @@ nav {
   background-color: #8b8787;
   padding: 1rem;
   text-align: center;
+  display: flex;
+  gap: 2.4rem;
 }
 
 nav a {
   color: rgb(227, 201, 201);
   text-decoration: none;
+  display: flex;
+  gap: 2rem;
   margin: 0 1rem;
 }
+img {
+  max-width: 100%;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+}
 .brand {
   letter-spacing: 2px;
   font-family: "Playfair Display", serif;
@@ -58,6 +82,22 @@ nav a {
 .price {
   color: #b17878;
   font-weight: bold;
+}
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+.card {
+  flex: 1 1 300px;
+  background: white;
+  border: 1px solid #e3d9c9;
+  border-radius: 8px;
+  padding: 1.6rem;
+  max-width: 28rem;
+}
+.card img {
+  width: 100%;
 }
 footer {
   font-size: 1.4rem;
