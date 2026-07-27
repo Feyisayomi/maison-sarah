@@ -28,10 +28,136 @@
         <h1>Pre-ordering any <em>of</em> our products is now possible!</h1>
         <p>
           Welcome to Maison Sarah bakery. In order to satisfy our esteemed
-          Customers, our <strong>Pre-order</strong> Form will soon be available.
-          Stay tuned.
+          Customers, our <strong>Pre-order</strong> Form is now available below:
         </p>
       </div>
+      <form>
+        <fieldset>
+          <legend>Who is picking up?</legend>
+          <label for="customer-name">Your name</label>
+          <input
+            class="field"
+            type="text"
+            id="customer-name"
+            name="customer-name"
+            placeholder="Sarah Maison"
+            required
+          />
+          <label for="email">email</label>
+          <input
+            class="field"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ooluwafeyisayomi@gmail.com"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Pickup Day</legend>
+          <div class="choice">
+            <input type="radio" id="Friday" name="pickup-day" value="Friday" />
+            <label for="Friday">Friday</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="day-saturday"
+              name="pickup-day"
+              value="Saturday"
+              checked
+            />
+            <label for="day-saturday">Saturday</label>
+          </div>
+          <div class="choice">
+            <input
+              type="radio"
+              id="day-sunday"
+              name="pickup-day"
+              value="sunday"
+            />
+            <label for="day-sunday">Sunday</label>
+          </div>
+          <label for="time">Pickup Time</label>
+          <select class="field" id="time" name="time">
+            <option>10:00</option>
+            <option>11:00</option>
+            <option>12:00</option>
+            <option>13:00</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Your Order</legend>
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="croissant"
+              name="order"
+              value="Croissant"
+            />
+
+            <label for="croissant">Butter Croissant</label>
+          </div>
+
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="Baguette"
+              name="order"
+              value="Baguette"
+            />
+
+            <label for="Baguette">Baguette</label>
+          </div>
+
+          <div class="choice">
+            <input
+              type="checkbox"
+              id=" Country sourdough"
+              name="order"
+              value="Country sourdough"
+            />
+
+            <label for="Country sourdough">Country sourdough</label>
+          </div>
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="apple pocket"
+              name="order"
+              value="Apple Pocket"
+            />
+
+            <label for="apple pocket">Apple Pocket</label>
+          </div>
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="meat_pie"
+              name="order"
+              value="Meat Pie"
+            />
+
+            <label for="meat_pie">Meat Pie</label>
+          </div>
+          <div class="choice">
+            <input
+              type="checkbox"
+              id="Vanilla cake"
+              name="order"
+              value="Vanilla Cakes"
+            />
+
+            <label for="croissant">Vanilla Cakes</label>
+          </div>
+
+          <label for="notes">Additional Notes</label>
+
+          <textarea class="field" id="notes" name="notes" rows="5"></textarea>
+
+          <button type="submit">Submit Order</button>
+        </fieldset>
+      </form>
     </main>
     <footer>&copy;2026 All rights reserved</footer>
   </body>
