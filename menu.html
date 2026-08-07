@@ -14,42 +14,90 @@
   </head>
   <body>
     <header>
-      <h1>Maison Sarah Bakery</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-      </nav>
+      <div class="container header-bar">
+        <h1 class="brand">Maison Sarah Bakery</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="order.html">Order</a>
+        </nav>
+      </div>
     </header>
     <main>
-      <h1>Maison Sarah Pastry Menu</h1>
-      <p class="tagline">
-        Our unique Customers. Than <em>you</em> for your continuous patronage.
-        Please see our updated menu and price list below
-      </p>
-      <ul>
-        <li>
-          <strong>Breads</strong>
+      <div class="container">
+        <section>
+          <h1>Maison Sarah Pastry Menu</h1>
+          <p class="tagline">
+            Our unique Customers. Than <em>you</em> for your continuous patronage.
+            Please see our updated menu and price list below
+          </p>
           <ul>
-            <li>Country sourdough: <span class="price">$2.50</span></li>
-            <li>Baguette: <span>$1.50</span class="price"></li>
+            <li>
+              <strong>Breads</strong>
+              <ul>
+                <li>Country sourdough: <span class="price">$2.50</span></li>
+                <li>Baguette: <span>$1.50</span class="price"></li>
+              </ul>
+            </li>
+            <li>
+              <strong>Pastries</strong>
+              <ul>
+                <li>Butter croissant: <span class="price">$0.70</span></li>
+                <li>Apple pocket: <span class="price">$1.00</span></li>
+              </ul>
+            </li>
+            <li>
+              <strong>Cakes</strong>
+              <ul>
+                <li>Vanilla Cake: <span class="price">$4.50</span></li>
+                <li>Chocolate Cake: <span class="price">$3.50</span></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li>
-          <strong>Pastries</strong>
-          <ul>
-            <li>Butter croissant: <span class="price">$0.70</span></li>
-            <li>Apple pocket: <span class="price">$1.00</span></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Cakes</strong>
-          <ul>
-            <li>Vanilla Cake: <span class="price">$4.50</span></li>
-            <li>Chocolate Cake: <span class="price">$3.50</span></li>
-          </ul>
-        </li>
-      </ul>
+        </section>
+        <section>
+          <h2>Weekend specials</h2>
+          <div class="card-row">
+
+              <article class="card">
+
+                  <img
+                      src="images/meat_pie.jpeg"
+                      alt="Freshly baked Meat pies.">
+
+                  <h3>Meat Pie</h3>
+
+                  <p class="price">$2.00</p>
+
+              </article>
+
+              <article class="card">
+
+                  <img
+                      src="images/Danish_cookies.jpeg"
+                      alt="Fresh danish cookies straight from the oven.">
+
+                  <h3>Danish cookies</h3>
+
+                  <p class="price">$4.00</p>
+
+              </article>
+
+              <article class="card">
+
+                  <img
+                      src="images/cinammon_roll.jpeg"
+                      alt="Freshly baked Cinnamon rolls on a plate.">
+
+                  <h3>Cinnamon rolls</h3>
+
+                  <p class="price">$1.20</p>
+
+              </article>
+
+          </div>
+        </section>  
+      </div> 
     </main>
     <footer>&copy;2026 All rights reserved</footer>
   </body>
